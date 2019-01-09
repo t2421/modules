@@ -1,0 +1,26 @@
+
+/* Skin */
+.fck-btn--default {
+    color: #000;
+    background-color: #ccc;
+}
+.fck-btn--default:hover:not(.is-disable) {
+    background-color: #eee;
+}
+
+.fck-btn--primary {
+    color: #FFF;
+    background-color: #F00;
+}
+.fck-btn--primary:hover:not(.is-disable) {
+    background-color: #400;
+}
+
+
+/* State */
+.fck-btn--default.is-disable{
+    background-color: #333;
+}
+.fck-btn--primary.is-disable{
+    background-color: #500;
+}

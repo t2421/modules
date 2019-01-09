@@ -1,11 +1,11 @@
 
 /* Structure */
-.fck-btnWrap{
+.fck-btnGroup{
     display: flex;
 }
 
 .fck-btn {
-    display: block;
+    display: inline-block;
     text-decoration: none;
     vertical-align: top;
 }
@@ -56,15 +56,15 @@
 }
 
 /* Layout */
-.fck-btnWrap.align-left{
+.fck-btnGroup.align-left{
     justify-content: flex-start;
 }
-.fck-btnWrap.align-right{
+.fck-btnGroup.align-right{
     justify-content: flex-end;
 }
-.fck-btnWrap.align-center{
+.fck-btnGroup.align-center{
     justify-content: center;
 }
-.fck-btnWrap .fck-btnWrap-full{
+.fck-btnGroup .fck-btnGroup-full{
     display: block;
 }

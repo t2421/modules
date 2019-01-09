@@ -1,0 +1,70 @@
+
+/* Structure */
+.fck-btnWrap{
+    display: flex;
+}
+
+.fck-btn {
+    display: block;
+    text-decoration: none;
+    vertical-align: top;
+}
+.fck-btn.is-disable{
+    cursor:default;
+}
+
+.fck-btn:hover {
+    text-decoration: none;
+}
+
+.fck-btn__inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;    
+}
+
+.fck-btn.is-full{
+    width: 100%;
+}
+/* Design */
+.fck-btn__inner {
+    height: 60px;
+    width: 100px;
+    line-height: 1.4;
+}
+
+.fck-btn__contents {
+    font-size: 13px;
+}
+
+
+/* Skin */
+.fck-btn--default {
+    color: #000;
+    background-color: #ccc;
+}
+.fck-btn--default:hover:not(.is-disable) {
+    background-color: #eee;
+}
+
+
+/* State */
+.fck-btn--default.is-disable{
+    background-color: #333;
+}
+
+/* Layout */
+.fck-btnWrap.align-left{
+    justify-content: flex-start;
+}
+.fck-btnWrap.align-right{
+    justify-content: flex-end;
+}
+.fck-btnWrap.align-center{
+    justify-content: center;
+}
+.fck-btnWrap .fck-btnWrap-full{
+    display: block;
+}

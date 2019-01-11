@@ -1,0 +1,71 @@
+.fck-heading{
+    margin: 0;
+}
+
+.fck-heading--primary{
+    line-height: 1.5;
+}
+
+.fck-heading--divider{
+    line-height: 1.5;
+    padding-bottom: 0px;
+    border-bottom: 1px solid #ccc;
+}
+
+.fck-heading--bullet{
+    line-height: 1.5;
+    
+}
+.fck-heading--bullet:before{
+    content:"";
+    vertical-align: middle;
+    display: inline-block;
+    width: 10px;
+    height: 0.9em;
+    background-color: #ccc;
+}
+.fck-heading--bullet--rect:before{
+    content:"";
+    vertical-align: middle;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: #ccc;
+}
+
+.fck-heading--bullet--circle:before{
+    content:"";
+    vertical-align: middle;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #ccc;
+}
+.fck-heading--line__inner{
+    display: inline-block;
+    position: relative;
+}
+.fck-heading--line{
+    position: relative;
+    overflow: hidden;
+}
+.fck-heading--line__inner:before,
+.fck-heading--line__inner:after{
+    height: 1px;
+    content:"";
+    position: absolute;
+    top: calc(50% - (1px / 2));
+    width: 2000px;
+    border-bottom: 1px solid #ccc;
+}
+
+.fck-heading--line__inner:before{
+    right: 100%;
+    margin-right: 0.6em;
+}
+
+.fck-heading--line__inner:after{
+    left: 100%;
+    margin-left: 0.6em;
+}

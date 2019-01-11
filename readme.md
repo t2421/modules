@@ -1,11 +1,11 @@
++ 見出し
++ ボタン（プライマリ、セカンダリ）
++ リンク（プライマリ、セカンダリ）
 + モーダル
 + インプットのカスタマイズ
 + アコーディオン、アクティブなもの以外とじる
 + 無限スクロール（順次ロード）
 + フィルタリング処理
-+ ボタン（プライマリ、セカンダリ）
-+ リンク（プライマリ、セカンダリ）
-+ 見出し
 + マージン
 + 記事一覧アイテム
 + タブ切り替え
@@ -35,7 +35,7 @@
 + インタラクティブに文字を省略していくjs
 + パネルデザインの様々なレイアウトパターン
 + メガドロップダウンパターン
-
++ 通知
 + 数字変更エフェクト
 + テーブル
 + ナビゲーションパターン
@@ -46,5 +46,16 @@
 
 
 ### refer
++ https://getbootstrap.com/docs/4.2/components/
+	+ Toast
++ https://semantic-ui.com/elements/button.html
+	+ Labeled Icon
+	+ Loading
 + https://www.blazeui.com/components/counter
 + https://getuikit.com/
++ https://foundation.zurb.com/sites/docs/index.html
++ https://minicss.org/docs#element-decorators
++ https://semantic-ui.com/elements/
+	+ Step
+	+ segment
+	+ Image > Vertically Aligned

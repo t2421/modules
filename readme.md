@@ -43,3 +43,8 @@
 	+ 店舗等一覧のピンを立てる
 	+ 条件に応じた検索
 	+ 現在地を使用した検索
+
+
+### refer
++ https://www.blazeui.com/components/counter
++ https://getuikit.com/

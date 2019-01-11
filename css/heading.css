@@ -69,3 +69,8 @@
     left: 100%;
     margin-left: 0.6em;
 }
+
+.fck-heading--frame{
+    padding: 2px 2px;
+    background-color: #ccc;
+}
